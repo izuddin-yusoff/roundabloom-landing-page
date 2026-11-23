@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Round a Bloom: gentle steps after heartbreak</title>
+<meta name="description" content="Gentle resources for healing after heartbreak, dating with confidence, and finding love that lasts.">
+<link rel="icon" href="logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+<style>
+:root{--cream:#FFF6EF;--peach:#FCE3D6;--plum:#4B2E39;--mplum:#7A6470;--p1:#F2A58E;--coral:#E07A5F;--deep:#C2563F;--sage:#8FAE8B;--line:#F0DCD0}
+*{box-sizing:border-box}body{margin:0;background:var(--cream);color:var(--plum);font-family:'DM Sans',system-ui,sans-serif;line-height:1.55}a{color:inherit}
+.wrap{width:min(1040px,calc(100% - 36px));margin:auto}
+header{display:flex;align-items:center;gap:10px;padding:20px 0}header svg{width:38px;height:38px}.brand{font-weight:700;font-size:1.15rem;text-decoration:none;letter-spacing:-.01em}
+.hero{position:relative;overflow:hidden;background:var(--peach);border-radius:28px;padding:64px 48px 56px}
+.hero .bigbloom{position:absolute;right:-90px;top:-70px;width:420px;height:420px;opacity:.35}
+.eyebrow{text-transform:uppercase;letter-spacing:.16em;font-size:.75rem;font-weight:700;color:var(--deep)}
+h1{font:700 clamp(2.4rem,6vw,4.3rem)/1.02 'Fraunces',Georgia,serif;margin:12px 0 16px;max-width:640px;position:relative}h1 em{font-style:normal;color:var(--coral)}
+.hero p{max-width:500px;font-size:1.08rem;color:var(--mplum);margin:0;position:relative}
+.disclosure{position:relative;margin-top:24px;max-width:560px;padding:11px 14px;background:#fff;border:1px solid var(--line);border-radius:12px;font-size:.82rem;color:var(--mplum)}
+section{margin-top:56px}h2{font:700 clamp(1.7rem,3.4vw,2.3rem)/1.1 'Fraunces',Georgia,serif;margin:0 0 8px}.lede{color:var(--mplum);margin:0 0 22px}
+.quiz{background:#fff;border:1px solid var(--line);border-radius:22px;padding:30px}
+.choices{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.choice{font:500 1rem 'DM Sans',sans-serif;color:var(--plum);text-align:left;padding:16px 18px;border-radius:14px;border:1.5px solid var(--line);background:var(--cream);cursor:pointer;transition:.15s}
+.choice:hover{border-color:var(--p1)}.choice[aria-pressed=true]{border-color:var(--coral);background:#fff;box-shadow:0 0 0 3px rgba(224,122,95,.15)}
+.result{display:none;margin-top:22px;padding:22px;border-radius:16px;background:var(--peach)}.result.show{display:block}
+.result h3{font:700 1.4rem/1.15 'Fraunces',serif;margin:4px 0 6px}.result p{margin:0 0 14px;color:var(--mplum)}
+.result .note{font-size:.85rem;margin-top:12px;margin-bottom:0}
+.offers{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.offer{background:#fff;border:1px solid var(--line);border-radius:20px;overflow:hidden;transition:.2s}.offer.hl{border-color:var(--coral);box-shadow:0 10px 30px rgba(194,86,63,.15)}
+.offer-top{height:120px;display:grid;place-items:center;background:linear-gradient(135deg,var(--peach),#fff)}.bud{width:92px;height:92px}
+.offer{display:flex;flex-direction:column}.offer-body{padding:20px 22px 22px;display:flex;flex-direction:column;flex:1}.offer-body .button{margin-top:auto}.tag{text-transform:uppercase;letter-spacing:.12em;font-size:.7rem;font-weight:700;color:var(--deep)}
+.offer h3{font:700 1.35rem/1.15 'Fraunces',serif;margin:6px 0}.offer p{color:var(--mplum);font-size:.93rem;margin:0 0 16px}
+.button{display:flex;justify-content:center;padding:13px;border-radius:999px;background:var(--coral);color:#fff;text-decoration:none;font-weight:700}.button:hover{background:var(--deep)}
+.first{background:var(--plum);color:var(--cream);border-radius:22px;padding:30px 32px}.first h2{color:#fff}.first p{color:#E9D9DF;margin:0}
+.safety{margin-top:40px;padding:18px 20px;border-radius:16px;background:#F6EDE6;border:1px solid var(--line);font-size:.88rem;color:var(--mplum)}.safety strong{color:var(--plum)}
+footer{margin-top:48px;border-top:1px solid var(--line);padding:24px 0 44px;color:var(--mplum);font-size:.82rem}.links{display:flex;gap:16px;margin-top:8px}.links a{color:var(--deep)}
+@media(max-width:700px){.hero{padding:44px 24px 36px;border-radius:22px}.hero .bigbloom{width:260px;height:260px;right:-80px;top:-60px}.choices,.offers{grid-template-columns:1fr}.quiz{padding:22px}}
+</style>
+</head>
+<body>
+<header class="wrap"><svg viewBox="-240 -240 480 480" aria-hidden="true"><ellipse cx="0" cy="-118" rx="62" ry="108" fill="#F2A58E" transform="rotate(0)"/><ellipse cx="0" cy="-118" rx="62" ry="108" fill="#E07A5F" transform="rotate(45)"/><ellipse cx="0" cy="-118" rx="62" ry="108" fill="#F2A58E" transform="rotate(90)"/><ellipse cx="0" cy="-118" rx="62" ry="108" fill="#E07A5F" transform="rotate(135)"/><ellipse cx="0" cy="-118" rx="62" ry="108" fill="#F2A58E" transform="rotate(180)"/><ellipse cx="0" cy="-118" rx="62" ry="108" fill="#E07A5F" transform="rotate(225)"/><ellipse cx="0" cy="-118" rx="62" ry="108" fill="#F2A58E" transform="rotate(270)"/><ellipse cx="0" cy="-118" rx="62" ry="108" fill="#E07A5F" transform="rotate(315)"/><ellipse cx="0" cy="-62" rx="34" ry="58" fill="#F9CDB9" transform="rotate(22.5)"/><ellipse cx="0" cy="-62" rx="34" ry="58" fill="#F9CDB9" transform="rotate(67.5)"/><ellipse cx="0" cy="-62" rx="34" ry="58" fill="#F9CDB9" transform="rotate(112.5)"/><ellipse cx="0" cy="-62" rx="34" ry="58" fill="#F9CDB9" transform="rotate(157.5)"/><ellipse cx="0" cy="-62" rx="34" ry="58" fill="#F9CDB9" transform="rotate(202.5)"/><ellipse cx="0" cy="-62" rx="34" ry="58" fill="#F9CDB9" transform="rotate(247.5)"/><ellipse cx="0" cy="-62" rx="34" ry="58" fill="#F9CDB9" transform="rotate(292.5)"/><ellipse cx="0" cy="-62" rx="34" ry="58" fill="#F9CDB9" transform="rotate(337.5)"/><circle r="44" fill="#8FAE8B"/><circle r="20" fill="#F7E7C6"/></svg><a class="brand" href="/">roundabloom</a></header>
+<main class="wrap">
+<section class="hero" style="margin-top:0">
+<div class="bigbloom"><svg viewBox="-240 -240 480 480" aria-hidden="true"><ellipse cx="0" cy="-118" rx="62" ry="108" fill="#F2A58E" transform="rotate(0)"/><ellipse cx="0" cy="-118" rx="62" ry="108" fill="#E07A5F" transform="rotate(45)"/><ellipse cx="0" cy="-118" rx="62" ry="108" fill="#F2A58E" transform="rotate(90)"/><ellipse cx="0" cy="-118" rx="62" ry="108" fill="#E07A5F" transform="rotate(135)"/><ellipse cx="0" cy="-118" rx="62" ry="108" fill="#F2A58E" transform="rotate(180)"/><ellipse cx="0" cy="-118" rx="62" ry="108" fill="#E07A5F" transform="rotate(225)"/><ellipse cx="0" cy="-118" rx="62" ry="108" fill="#F2A58E" transform="rotate(270)"/><ellipse cx="0" cy="-118" rx="62" ry="108" fill="#E07A5F" transform="rotate(315)"/><ellipse cx="0" cy="-62" rx="34" ry="58" fill="#F9CDB9" transform="rotate(22.5)"/><ellipse cx="0" cy="-62" rx="34" ry="58" fill="#F9CDB9" transform="rotate(67.5)"/><ellipse cx="0" cy="-62" rx="34" ry="58" fill="#F9CDB9" transform="rotate(112.5)"/><ellipse cx="0" cy="-62" rx="34" ry="58" fill="#F9CDB9" transform="rotate(157.5)"/><ellipse cx="0" cy="-62" rx="34" ry="58" fill="#F9CDB9" transform="rotate(202.5)"/><ellipse cx="0" cy="-62" rx="34" ry="58" fill="#F9CDB9" transform="rotate(247.5)"/><ellipse cx="0" cy="-62" rx="34" ry="58" fill="#F9CDB9" transform="rotate(292.5)"/><ellipse cx="0" cy="-62" rx="34" ry="58" fill="#F9CDB9" transform="rotate(337.5)"/><circle r="44" fill="#8FAE8B"/><circle r="20" fill="#F7E7C6"/></svg></div>
+<div class="eyebrow">Healing after heartbreak</div>
+<h1>You get to <em>bloom</em> first.</h1>
+<p>Gentle resources for getting through a breakup, dating with confidence, and finding love that lasts.</p>
+<div class="disclosure"><strong>Affiliate disclosure:</strong> I may earn a commission if you buy through a link here, at no extra cost to you.</div>
+</section>
+
+<section aria-labelledby="q">
+<h2 id="q">Start where you are</h2>
+<p class="lede">Which of these sounds most like you right now?</p>
+<div class="quiz">
+<div class="choices"><button class="choice" data-k="ex" type="button" aria-pressed="false">“It ended, and I’m not ready to let go.”</button><button class="choice" data-k="tc" type="button" aria-pressed="false">“I’m dating, and I never know what to text.”</button><button class="choice" data-k="hso" type="button" aria-pressed="false">“I want to understand him and feel closer.”</button><button class="choice" data-k="ds" type="button" aria-pressed="false">“I want something real that lasts.”</button></div>
+<div class="result" id="result" aria-live="polite"></div>
+</div>
+</section>
+
+<section class="first">
+<h2>Before anything else</h2>
+<p>Look after yourself first: sleep, eat, lean on your people. No resource can make another person feel or decide anything. What you can grow is your own confidence and clarity, whatever happens next.</p>
+</section>
+
+<section aria-labelledby="all">
+<h2 id="all">All resources</h2>
+<p class="lede">Self-help programs, not professional counseling. Read each one’s details before you buy.</p>
+<div class="offers"><article class="offer" id="o-ex"><div class="offer-top" style="--c:#F2A58E"><svg class="bud" viewBox="-64 -64 128 128" aria-hidden="true"><ellipse cx="0" cy="-30" rx="15" ry="28" fill="#F2A58E" fill-opacity="0.55" transform="rotate(0)"/><ellipse cx="0" cy="-30" rx="15" ry="28" fill="#F2A58E" fill-opacity="0.9" transform="rotate(60)"/><ellipse cx="0" cy="-30" rx="15" ry="28" fill="#F2A58E" fill-opacity="0.55" transform="rotate(120)"/><ellipse cx="0" cy="-30" rx="15" ry="28" fill="#F2A58E" fill-opacity="0.9" transform="rotate(180)"/><ellipse cx="0" cy="-30" rx="15" ry="28" fill="#F2A58E" fill-opacity="0.55" transform="rotate(240)"/><ellipse cx="0" cy="-30" rx="15" ry="28" fill="#F2A58E" fill-opacity="0.9" transform="rotate(300)"/><circle r="12" fill="#FFF6EF"/></svg></div><div class="offer-body"><div class="tag">Healing after heartbreak</div><h3>The Ex Factor 2.0</h3><p>For women facing emotional distance, separation, or a serious rupture.</p><a class="button" href="https://382d4lucvfvn6p02w6-c-8nhne.hop.clickbank.net/?&traffic_source=instagram-roundabloom" target="_blank" rel="sponsored nofollow noopener">Explore the resource</a></div></article><article class="offer" id="o-tc"><div class="offer-top" style="--c:#8FAE8B"><svg class="bud" viewBox="-64 -64 128 128" aria-hidden="true"><ellipse cx="0" cy="-30" rx="15" ry="28" fill="#8FAE8B" fill-opacity="0.55" transform="rotate(0)"/><ellipse cx="0" cy="-30" rx="15" ry="28" fill="#8FAE8B" fill-opacity="0.9" transform="rotate(60)"/><ellipse cx="0" cy="-30" rx="15" ry="28" fill="#8FAE8B" fill-opacity="0.55" transform="rotate(120)"/><ellipse cx="0" cy="-30" rx="15" ry="28" fill="#8FAE8B" fill-opacity="0.9" transform="rotate(180)"/><ellipse cx="0" cy="-30" rx="15" ry="28" fill="#8FAE8B" fill-opacity="0.55" transform="rotate(240)"/><ellipse cx="0" cy="-30" rx="15" ry="28" fill="#8FAE8B" fill-opacity="0.9" transform="rotate(300)"/><circle r="12" fill="#FFF6EF"/></svg></div><div class="offer-body"><div class="tag">Dating again</div><h3>Text Chemistry</h3><p>Ideas for texting with more confidence while you’re getting to know someone.</p><a class="button" href="https://e0e009ffynji1p1jurvxt8-s79.hop.clickbank.net/?&traffic_source=instagram-roundabloom" target="_blank" rel="sponsored nofollow noopener">Explore the resource</a></div></article><article class="offer" id="o-hso"><div class="offer-top" style="--c:#E07A5F"><svg class="bud" viewBox="-64 -64 128 128" aria-hidden="true"><ellipse cx="0" cy="-30" rx="15" ry="28" fill="#E07A5F" fill-opacity="0.55" transform="rotate(0)"/><ellipse cx="0" cy="-30" rx="15" ry="28" fill="#E07A5F" fill-opacity="0.9" transform="rotate(60)"/><ellipse cx="0" cy="-30" rx="15" ry="28" fill="#E07A5F" fill-opacity="0.55" transform="rotate(120)"/><ellipse cx="0" cy="-30" rx="15" ry="28" fill="#E07A5F" fill-opacity="0.9" transform="rotate(180)"/><ellipse cx="0" cy="-30" rx="15" ry="28" fill="#E07A5F" fill-opacity="0.55" transform="rotate(240)"/><ellipse cx="0" cy="-30" rx="15" ry="28" fill="#E07A5F" fill-opacity="0.9" transform="rotate(300)"/><circle r="12" fill="#FFF6EF"/></svg></div><div class="offer-body"><div class="tag">Understanding him</div><h3>His Secret Obsession</h3><p>Ideas for understanding attraction and emotional connection.</p><a class="button" href="https://88248jraonma0zcerf37eels2f.hop.clickbank.net/?&traffic_source=instagram-roundabloom" target="_blank" rel="sponsored nofollow noopener">Explore the resource</a></div></article><article class="offer" id="o-ds"><div class="offer-top" style="--c:#C2563F"><svg class="bud" viewBox="-64 -64 128 128" aria-hidden="true"><ellipse cx="0" cy="-30" rx="15" ry="28" fill="#C2563F" fill-opacity="0.55" transform="rotate(0)"/><ellipse cx="0" cy="-30" rx="15" ry="28" fill="#C2563F" fill-opacity="0.9" transform="rotate(60)"/><ellipse cx="0" cy="-30" rx="15" ry="28" fill="#C2563F" fill-opacity="0.55" transform="rotate(120)"/><ellipse cx="0" cy="-30" rx="15" ry="28" fill="#C2563F" fill-opacity="0.9" transform="rotate(180)"/><ellipse cx="0" cy="-30" rx="15" ry="28" fill="#C2563F" fill-opacity="0.55" transform="rotate(240)"/><ellipse cx="0" cy="-30" rx="15" ry="28" fill="#C2563F" fill-opacity="0.9" transform="rotate(300)"/><circle r="12" fill="#FFF6EF"/></svg></div><div class="offer-body"><div class="tag">Toward commitment</div><h3>The Devotion System</h3><p>Guidance for confidence, communication, and long-term closeness.</p><a class="button" href="https://bc967iia-modyq5yrjum0siq78.hop.clickbank.net/?&traffic_source=instagram-roundabloom" target="_blank" rel="sponsored nofollow noopener">Explore the resource</a></div></article></div>
+</section>
+
+<div class="safety"><strong>Please remember:</strong> If a relationship involved abuse, intimidation, coercive control, or you feel unsafe, please don’t try to win it back. Your safety comes first: reach out to qualified local support. If you’re in immediate danger, call your local emergency number.</div>
+</main>
+<footer><div class="wrap"><div>Results vary. A product cannot guarantee that another person will change their feelings or behavior.</div><div class="links"><a href="/disclosure.html">Disclosure</a><a href="/privacy.html">Privacy</a><a href="/terms.html">Terms</a></div></div></footer>
+<script>
+const D={ex:{n:"The Ex Factor 2.0",d:"For women facing emotional distance, separation, or a serious rupture.",u:"https://382d4lucvfvn6p02w6-c-8nhne.hop.clickbank.net/?&traffic_source=instagram-roundabloom"},tc:{n:"Text Chemistry",d:"Ideas for texting with more confidence while you’re getting to know someone.",u:"https://e0e009ffynji1p1jurvxt8-s79.hop.clickbank.net/?&traffic_source=instagram-roundabloom"},hso:{n:"His Secret Obsession",d:"Ideas for understanding attraction and emotional connection.",u:"https://88248jraonma0zcerf37eels2f.hop.clickbank.net/?&traffic_source=instagram-roundabloom"},ds:{n:"The Devotion System",d:"Guidance for confidence, communication, and long-term closeness.",u:"https://bc967iia-modyq5yrjum0siq78.hop.clickbank.net/?&traffic_source=instagram-roundabloom"}};
+const R=document.getElementById('result');
+document.querySelectorAll('.choice').forEach(b=>b.addEventListener('click',()=>{
+document.querySelectorAll('.choice').forEach(x=>x.setAttribute('aria-pressed',x===b));
+document.querySelectorAll('.offer').forEach(o=>o.classList.remove('hl'));
+const k=b.dataset.k,o=D[k];document.getElementById('o-'+k).classList.add('hl');
+R.innerHTML='<div class="tag">A place to start</div><h3>'+o.n+'</h3><p>'+o.d+'</p><a class="button" href="'+o.u+'" target="_blank" rel="sponsored nofollow noopener">Explore '+o.n+'</a><p class="note">A self-help program, not professional counseling. Results vary.</p>';
+R.classList.add('show');}));
+</script>
+</body>
+</html>

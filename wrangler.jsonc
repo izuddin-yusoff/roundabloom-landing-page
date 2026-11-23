@@ -1,0 +1,8 @@
+{
+  // Cloudflare Worker that serves bloom.simoliy.com (static files only).
+  "name": "roundabloom-landing",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./public"
+  }
+}
